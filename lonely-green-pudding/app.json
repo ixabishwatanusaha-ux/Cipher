@@ -1,13 +1,24 @@
 {
   "expo": {
     "name": "Cipher Breaker",
-    "slug": "cipher-breaker",
+    "slug": "cipher",
+    "owner": "bishwa_coder10",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "android": {
       "package": "com.yourname.cipherbreaker"
+    },
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1def96ca-c59f-48f0-9d69-c6845a905a29"
+      }
     }
   }
 }
